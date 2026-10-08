@@ -1,0 +1,14 @@
+{
+  "pod-example-001": {
+    "adb": "localhost:8767",
+    "games": {
+      "roblox": "com.roblox.client",
+      "fortnite": "com.epicgames.fortnite"
+    },
+    "joystick": { "cx": 260, "cy": 1700, "r": 140 },
+    "buttons": {
+      "a": { "x": 900, "y": 1600 },
+      "b": { "x": 800, "y": 1750 }
+    }
+  }
+}
