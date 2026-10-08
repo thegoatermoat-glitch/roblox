@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloudplay</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Cloudplay</h1>
+  <a class="link" href="/admin.html">Admin</a>
+</header>
+<main>
+  <p class="lede">Pick a game and launch it on a cloud phone.</p>
+  <div id="games" class="games"></div>
+  <section id="session" hidden>
+    <h2 id="sessionTitle"></h2>
+    <p id="sessionBody"></p>
+    <button id="release">Release phone</button>
+  </section>
+  <section id="play" hidden>
+    <img id="screen" alt="Phone screen">
+    <p id="hint">W A S D or left stick to move. Space or A button taps A. E or B button taps B.</p>
+  </section>
+  <p id="msg" role="status"></p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
